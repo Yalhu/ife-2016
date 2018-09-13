@@ -1,40 +1,40 @@
 # 2016年百度IFE春季班
 
 ## Demo 
-task01 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task01/readme.md><br>
+task01 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task01/><br>
 task01 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task01/task01.html>
 
-task02 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task02/readme.md><br>
+task02 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task02/><br>
 task02 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task02/task02.html>
 
-task03 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task03/readme.md><br>
+task03 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task03/><br>
 task03 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task03/task03.html>
 
-task04 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task04/readme.md><br>
+task04 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task04/><br>
 task04 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task04/task04.html>
 
-task05 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task05/readme.md><br>
+task05 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task05/><br>
 task05 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task05/task05.html>
 
-task06 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task06/readme.md><br>
+task06 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task06/><br>
 task05 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task06/task06.html>
 
-task07 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task07/readme.md><br>
+task07 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task07/><br>
 task07 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task07/task07.html>
 
-task08 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task08/readme.md><br>
+task08 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task08/><br>
 task08 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task08/task08.html>
 
-task09 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task09/readme.md><br>
+task09 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task09/><br>
 task09 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task09/task09.html>
 
-task10 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task10/readme.md><br>
+task10 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task10/><br>
 task10 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task10/task10.html>
 
-task11 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task11/readme.md><br>
+task11 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task11/><br>
 task11 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task11/task11.html>
 
-task12 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task12/readme.md><br>
+task12 任务要求地址：<https://github.com/yalhu/ife-2016/blob/master/part1/task12/><br>
 task12 在线预览地址：<http://yalhu.github.io/ife-2016/part1/task12/task12.html>
 
 ## IFE春季班第一阶段任务
