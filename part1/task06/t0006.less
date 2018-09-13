@@ -1,0 +1,243 @@
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt,a,img{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+ul,li{list-style:none;}
+img{vertical-align:middle;}
+a{text-decoration:none;}
+.clear{clear:both;}
+
+.wrapper{
+  width:892px;
+  margin:0 auto;
+}
+#header{
+  height:61px;
+  div{
+    position:relative;
+    width:110px;
+    height:100%;
+    background:#f00;
+    a{
+      //display:inline-block;
+      position:absolute;
+      bottom:0;
+      left:0;
+      text-indent:1em;
+      color:#fff;
+      font:12px 'Microsoft Yahei';
+    }
+  }
+}
+
+//main
+#main{
+  padding:40px 0 60px 0;
+  margin-bottom:20px;
+  border:2px solid #938e8c;
+  border-left:none;
+  border-right:none;
+  .title{
+    .title_pic{
+      position:relative;
+      float:left;
+      margin-right:20px;
+      width:641px;
+      height:301px;
+      img{
+        width:641px;
+        height:301px;
+      }
+      .mask{
+        position:absolute;
+        width:151px;
+        height:100%;
+        background:rgba(0,0,0,.8);
+        &:first-of-type{
+          //float:left;
+          left:0;
+          top:0;
+        }
+        &:last-child{
+          //float:right;
+          right:0;
+          top:0;
+        }
+      }
+    }
+    .title_desc{
+      overflow:hidden;
+      //BFC的区域不会与浮动盒子重叠
+      height:301px;
+      border-top:2px solid #cc8091;
+      font-family:'Microsoft YaHei';
+      h1{
+        line-height:40px;
+        a{
+          font-size:24px;
+          text-transform:capitalize;
+          //全部转为大写，下面的小型大写字母无效；html文档中字母也要小写
+          text-decoration:underline;
+          span{
+            font-variant:small-caps;
+          }
+        }
+      }
+      &>p{
+        line-height:12px;
+        font:12px KaiTi;
+      }
+      div{
+        p{
+          position:relative;
+          margin:-13px auto;
+          color:#cc8091;
+          font-size:21px;
+          &>span:first-child{
+            font-size:55px;
+          }
+          &>span:last-child{
+            position:absolute;
+            bottom:12px;
+            margin-left:4px;
+            line-height:14px;
+            b{
+              color:#5a5b5b;
+              font-size:12px;
+            }
+          }
+          &:first-child{
+            color:#0d0;
+            font-size:116px;
+          }
+        }
+      }
+    }
+  }
+  .topic{
+    overflow:hidden;
+    margin:30px auto;
+    //padding:30px auto;
+    //padding:auto好像要知道宽高（子元素内容），子元素都浮动了，并不知道宽高
+    //overflow后宽高（父元素）就知道了，就可以用了margin了--自己理解的
+    .top_item{
+      float:left;
+      margin-right:40px;
+      width:220px;
+      //word-wrap:break-word;
+      word-break:break-all;
+      h3{
+        a{
+          font-weight:bold;
+          font-size:16px;
+          color:#d2994f;
+          &:hover{
+            text-decoration:underline;
+            color:#cc7680;
+          }
+        }
+      }
+      p{
+        line-height:16px;
+        color:#231816;
+        font-size:12px;
+      }
+    }
+  }
+  .content{
+    position:relative;
+    min-height:570px;
+    //padding:20px;//和上面的感觉原理一样
+    .column1{
+      overflow:hidden;
+      //清除图片浮动影响，撑开父元素
+      margin-right:478px;
+      h2{
+        text-transform:uppercase;
+        line-height:16px;
+        font:42px SimHei;
+        span{
+          color:#f5e327;
+          //font:italic bold 72px;
+          font-style:italic;
+          font-size:72px;
+        }
+      }
+      p{
+        word-break:break-all;
+        //font-family:SimHei;
+        &:first-of-type{
+          &:first-letter{
+            float:left;
+            color:#f5e327;
+            line-height:80px;
+            font-size:70px;
+          }
+        }
+        &:last-of-type{
+          text-indent:2em;
+        }
+      }
+      img{
+        width:200px;
+        height:300px;
+        float:right;
+      }
+    }
+    .column2{
+      position:absolute;
+      right:0;
+      top:0;
+      width:458px;
+      //height:275px;
+      .column2_title{
+        position:relative;
+        overflow:hidden;
+        img{
+          width:458px;
+          height:275px;
+        }
+        .mask{
+          position:absolute;
+          top:213px;
+          transition:all 0.3s ease;
+          padding:20px;
+          height:275px;
+          color:#fff;
+          background:rgba(0,0,0,0.7);
+          h5{
+            border-left:3px solid #72b16a;
+            line-height:26px;
+            text-indent:.5em;
+            font-size:26px;
+          }
+          p{
+            margin-top:60px;
+          }
+          &:hover{
+
+            top:0;
+          }
+        }
+      }
+      .column2_directory{
+        margin-top:20px;
+        padding:10px;
+        background:#ddd;
+        ul{
+          li{
+            padding:7px 0;
+            list-style:square inside;
+            a{
+              color:#5a5b5b;
+              &:hover{
+                color:#11456b;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>P-TODO</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <p class="header-name">PKJY-TODO</p>
+    </header>
+    <div class="main">
+        <div class="left-content">
+            <div class="left-content-main">
+                <p>所有任务(11)</p>
+                <p>分类列表</p>
+                <dl class="left-content-main-dl">
+                    <dt><i class="fa fa-folder-open"></i><span>百度IFE项目</span><span>(10)</span></dt>
+                    <dd class="class-checked"><i class="fa fa-file"></i><span>task1</span><span>(6)</span></dd>
+                    <dd><i class="fa fa-file-o"></i><span>task2</span><span>(4)</span></dd>
+                    <dt><i class="fa fa-folder-open"></i><span>毕业设计</span><span>(0)</span></dt>
+                    <dt><i class="fa fa-folder-open"></i><span>社团活动</span><span>(0)</span></dt>
+                    <dt><i class="fa fa-folder-open"></i><span>家庭生活</span><span>(0)</span></dt>
+                    <dt><i class="fa fa-folder-open"></i><span>默认分类</span><span>(0)</span></dt>
+                    <dd><i class="fa fa-file-o"></i><span>task2</span><span>(4)</span></dd>
+                </dl>
+            </div>
+            <div class="left-content-bottom fixed">
+                <i class="fa fa-plus-circle fa-2x"></i>
+                <span>新增分类</span>
+            </div>
+        </div>
+        <div class="middle-content">
+            <div>
+                <ul>
+                    <li class="class-checked">所有</li>
+                    <li>未完成</li>
+                    <li>已完成</li>
+                </ul>
+                <dl>
+                    <dt class="task-date">2016-01-28</dt>
+                    <dd>todo 1</dd>
+                    <dd>todo 2</dd>
+                    <dt class="task-date">2016-01-29</dt>
+                    <dd>todo 3</dd>
+                    <dd>todo 4</dd>
+                    <dt class="task-date">2016-02-30</dt>
+                    <dd>todo 5</dd>
+                    <dd class="task-checked">todo 6</dd>
+                    <dt class="task-date">2016-01-04</dt>
+                    <dd>todo 7</dd>
+                </dl>
+            </div>
+            <div class="middle-content-bottom fixed">
+                <i class="fa fa-plus-circle fa-2x"></i>
+                <span id="addTask">新增任务</span>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="right-content-title">
+                计划名称：
+                <span>
+                        <span>to-do 6</span>
+                <i class="fa fa-pencil-square-o fa-2x"></i>
+                <i class="fa fa-check-square-o fa-2x"></i>
+                </span>
+                <span class="hide">
+                        <input type="text" value="请输入计划名称">
+                        <i class="fa fa-check fa-2x"></i> 
+                        <i class="fa fa-times fa-2x"></i>
+                    </span>
+            </div>
+            <div class="right-content-date">
+                <div>
+                    <i class="fa fa-calendar"></i><span>2016-01-30</span>
+                </div>
+                <div class="hide">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" value="请输入日期" />
+                </div>
+            </div>
+            <div class="right-content-main">
+                <p>完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作完成task3的编码工作</p>
+                <textarea rows="15" cols="125" class="hide"></textarea>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function addClass() {
+        var eee = document.getElementById("addTask");
+        eee.style.display = "show";
+    }
+    console.log(document.getElementById("addTask"));
+    document.getElementById("addTask").addEventListener("click", addClass(), false);
+    </script>
+</body>
+
+</html>
