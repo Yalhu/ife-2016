@@ -6,7 +6,7 @@
       <router-link :to="{name:'MainHome'}" class='go-home'>
         <span title="主页">我的问卷</span>
       </router-link>
-      <a href="https://github.com/pkjy/ife-task/tree/gh-pages/2016_spring/part4/task50/" class="go-github">
+      <a href="https://github.com/yalhu/ife-2016/tree/master/part4/task50/" class="go-github">
         <span title="跳转至Github">源码</span>
       </a>
     </header>

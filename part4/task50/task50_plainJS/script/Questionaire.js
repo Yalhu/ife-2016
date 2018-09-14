@@ -1002,7 +1002,7 @@ Questionaire.prototype = {
 if (navigator.appName.indexOf("Microsoft Internet Explorer") != -1 && document.all) {//IE
   if (navigator.userAgent.split(";")[1].toLowerCase().indexOf("msie 10.0") == "-1") {//IE10以下
     alert("IE9及以下版本浏览器不兼容，为了您的体验请更换其他高级浏览器(Chrome/Firefox/Edge/Safiri等等)再尝试！2秒后自动前往我的主页。");
-    setTimeout(function () { window.location.href = "http://pkjy.github.io"; }, 2000);
+    setTimeout(function () { window.location.href = "http://yalhu.github.io"; }, 2000);
   }
 }
 var myQuestionaire = new Questionaire(); //必须用myQuestionaire，写的时候是用的myQuestionaire为指针
